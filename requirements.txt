@@ -1,1 +1,10 @@
-
+pandas
+transformers
+numpy
+json
+sklearn
+xgboost
+matplotlib
+torch
+datasets
+tensorflow
