@@ -67,13 +67,11 @@ cd Bias-Detection-in-LLMs-for-Job-Application-Portals
 pip install -r requirements.txt
 ```
 
-
 3. Run the Jupyter Notebook:
 
 ```
 jupyter notebook Bias Classification Models.ipynb
 jupyter notebook  SampleNamesGeneration.ipynb
-
 ```
 ---
 ## **References**
