@@ -72,6 +72,8 @@ pip install -r requirements.txt
 jupyter notebook Bias Classification Models.ipynb
 jupyter notebook  SampleNamesGeneration.ipynb
 ```
+
+Note: API for Wandb.ai to use BERT is 050b16e1c89918f44c65c58294194f1481f98d81
 ---
 ## **References**
 - Derous E, Ryan AM. (2019) When your resume is (not) turning you down: Modelling ethnic bias in resume screening. Hum Resour Manag J. 
