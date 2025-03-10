@@ -45,7 +45,7 @@ This project aims to create a classification model that aims to classify the res
   ## **Project Structure**
 ```
 /Bias-Classification
-├── Trustworthy.ipynb   #  Notebook with bias code implementation
+├── Bias Classification Models.ipynb   #  Notebook with bias code implementation
 ├── requirements.txt           # Dependencies for running the project
 ├── README.md                  # Project documentation
 └── Datasets                    # All the datasets that are used in the project
