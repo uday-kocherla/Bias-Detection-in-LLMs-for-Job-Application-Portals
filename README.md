@@ -67,6 +67,15 @@ cd Bias-Detection-in-LLMs-for-Job-Application-Portals
 pip install -r requirements.txt
 ```
 
+
+3. Run the Jupyter Notebook:
+
+```
+jupyter notebook Bias Classification Models.ipynb
+jupyter notebook  SampleNamesGeneration.ipynb
+
+```
+---
 ## **References**
 - Derous E, Ryan AM. (2019) When your resume is (not) turning you down: Modelling ethnic bias in resume screening. Hum Resour Manag J. 
 - Nadeem et al.. (2021). StereoSet: Measuring stereotypical bias in pretrained language models.
