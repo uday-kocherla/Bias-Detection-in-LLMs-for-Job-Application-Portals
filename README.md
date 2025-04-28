@@ -53,13 +53,12 @@ This project aims to create a classification model that aims to classify the res
 ├── README.md                  # Project documentation
 └── Datasets                    # All the datasets that are used in the project
 └── SampleNamesGeneration.ipynb         # Notebook with sample name generation code implementation
-└── main.py      
-└── cat_prompt.py       
-└── run_cat.py        
-└── evaluate_cat.py        
-└── debug.py        
-
-
+└── CAT
+    └── main.py                             # python main file for CAT
+    └── cat_prompts.py                       # All the 16 prompts for CAT Test
+    └── run_cat.py                          # CAT program to establish the connection to OpenAI 
+    └── evaluate_cat.py                     # evalution metric file for CAT test
+    └── debug.py                            # Debug file for CAT
 
 
 ```
@@ -83,6 +82,35 @@ pip install -r requirements.txt
 jupyter notebook Bias Classification Models.ipynb
 jupyter notebook  SampleNamesGeneration.ipynb
 ```
+
+## Results
+
+### Classification Results
+| Model | Accuracy | Precision | Recall | F1 Score |
+|----------|----------|----------|----------|----------|
+|  Random Forest  | 80%  | 80%  | 77% | 78%  |
+| XGBoost | 76%  | 75%  | 74%  | 74%  |
+|  MLP   | 78% | 77% | 76%  | 76% |
+|  Custom Model   | 82% | 81% | 81%  | 81% |
+|  BERT   | 94% | 94% | 92%  | 93% |
+
+
+### CAT Results
+| Model | TEMP | NSS | SS | ICAT |
+|----------|----------|----------|----------|----------|
+|  OpenAI  | 0  | 25  | 75 | 12.5  |
+| GPT 3.5  | 1  | 12.5  | 87.5  | 3.12  |
+|  Turbo   | 0.7 | 25 | 68.75  | 15.62 |
+
+### Robustness Results
+| Model | Accuracy | Precision | Recall | F1 Score |
+|----------|----------|----------|----------|----------|
+|  Random Forest  | 76%  | 76%  | 72% | 73%  |
+| XGBoost | 67%  | 66%  | 65%  | 66%  |
+|  MLP   | 71% | 71% | 69%  | 69% |
+|  Custom Model   | 73% | 73% | 71%  | 72% |
+|  BERT   | 81% | 83% | 78%  | 79% |
+
 
 Note: you need API of Wandb.ai to use BERT
 ---
