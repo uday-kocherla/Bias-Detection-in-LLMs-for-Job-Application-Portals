@@ -100,9 +100,9 @@ jupyter notebook  SampleNamesGeneration.ipynb
 ### CAT Results
 | Model | TEMP | NSS | SS | ICAT |
 |----------|----------|----------|----------|----------|
-|  OpenAI  | 0  | 25  | 75 | 12.5  |
-| GPT 3.5  | 1  | 12.5  | 87.5  | 3.12  |
-|  Turbo   | 0.7 | 25 | 68.75  | 15.62 |
+|    | 0  | 25  | 75 | 12.5  |
+| GPT 3.5 Turbo  | 1  | 12.5  | 87.5  | 3.12  |
+|   | 0.7 | 25 | 68.75  | 15.62 |
 
 ### Robustness Results
 | Model | Accuracy | Precision | Recall | F1 Score |
